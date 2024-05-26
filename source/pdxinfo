@@ -1,0 +1,7 @@
+name=Sequential
+author=Miroslaw Zielinski
+description=A simple logic game.
+bundleID=com.zielok.sequential
+version=1.01
+buildNumber=101
+imagePath=SystemAssets
