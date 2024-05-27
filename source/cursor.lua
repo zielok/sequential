@@ -23,7 +23,6 @@ function cursorSetOne(i,x,y)
     cursor[i]:position(23+x*22,32+y*22)
 end
 
-
 function cursorUpdate(xm,ym)
     for i=0,4,1 do
         cursor[i]:playAnimation()
