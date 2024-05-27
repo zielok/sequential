@@ -7,13 +7,11 @@ local gfx = playdate.graphics
 cursor = {}
 
 function cursorSetUp(xm,ym)
-    
     for i=0,4,1 do
         cursor[i] = MySprite(22+xm*22,31+ym*22,NIL,1)
         cursor[i]:setImagesTable("img/mark")
         cursor[i]:image(1)
     end
-    
 end
 
 function cursorSetOne(i,x,y)
